@@ -8,26 +8,26 @@ menu:
     归档: /archives/ || icon-guidang1 || faa-tada
     标签: /tags/ || icon-sekuaibiaoqian || faa-tada
     分类: /categories/ || icon-fenlei || faa-tada
-  休闲 || icon-pinweishenghuo || faa-tada || hide:
-    八音盒: /life/music/ ||icon-yinle || faa-tada
-    影院: /life/movies/ ||icon-dianying1 || faa-tada
-    游戏: /life/games/ || icon-youxishoubing || faa-tada
-  八宝箱 || icon-xiangzi || faa-tada || hide:
-    画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
-    动画: /box/animation/ || icon-nvwumao || faa-tada
-    网址导航: /box/nav/ || icon-zhifengche || faa-tada
-  社交 || icon-shejiaoxinxi || faa-tada || hide:
-    朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
-    留言板: /comments/ || icon-liuyan || faa-tada
-    友人帐: /social/link/ || icon-lianjie || faa-tada
+  # 休闲 || icon-pinweishenghuo || faa-tada || hide:
+  #   八音盒: /life/music/ ||icon-yinle || faa-tada
+  #   影院: /life/movies/ ||icon-dianying1 || faa-tada
+  #   游戏: /life/games/ || icon-youxishoubing || faa-tada
+  # 八宝箱 || icon-xiangzi || faa-tada || hide:
+  #   画廊: /box/gallery/ ||icon-tubiaozhizuomoban || faa-tada
+  #   动画: /box/animation/ || icon-nvwumao || faa-tada
+  #   网址导航: /box/nav/ || icon-zhifengche || faa-tada
+  # 社交 || icon-shejiaoxinxi || faa-tada || hide:
+  #   朋友圈: /social/fcircle/ || icon-pengyouquan || faa-tada
+  #   留言板: /comments/ || icon-liuyan || faa-tada
+  #   友人帐: /social/link/ || icon-lianjie || faa-tada
   网站 || icon-wangye || faa-tada || hide:
     网站统计: /site/census/ || icon--tongjibiao || faa-tada
     文章统计: /site/echarts/ || icon-shujutongji1 || faa-tada
     旧时光: /site/time/ || icon-xianxingshalou || faa-tada
-  个人 || icon-maoliang || faa-tada || hide:
-    唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
-    恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
-    关于: /personal/about/ || icon-paperplane || faa-tada
+  # 个人 || icon-maoliang || faa-tada || hide:
+  #   唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
+  #   恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
+  #   关于: /personal/about/ || icon-paperplane || faa-tada
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -51,12 +51,12 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # Github: https://github.com/fomalhaut1998 || icon-github || faa-tada
-  微信: /assets/QRCode.jpg || icon-weixin || faa-tada
-  QQ: https://res.abeim.cn/api/qq/?qq=540339708 || icon-QQ || faa-tada
-  B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
-  QQ邮箱: mailto:540339708@qq.com || icon-youxiang || faa-tada
-  力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
+  Github: https://github.com/answerBoom || icon-github || faa-tada
+  # 微信: /assets/QRCode.jpg || icon-weixin || faa-tada
+  # QQ: https://res.abeim.cn/api/qq/?qq=540339708 || icon-QQ || faa-tada
+  # B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
+  # QQ邮箱: mailto:540339708@qq.com || icon-youxiang || faa-tada
+  # 力扣: https://leetcode.cn/u/fomalhaut1998 || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
   # 知乎: https://www.zhihu.com/people/liang-jia-chao-19 || icon-shejiaotubiao-10 || faa-tada
   # RSS: /atom.xml || icon-RSS || faa-tada
@@ -113,7 +113,8 @@ favicon:
 
 # Avatar (頭像)
 avatar:
-  img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
+  img: images/FalklandKings2.jpg
+  # img: https://tuchuang.voooe.cn/images/2023/01/02/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -156,6 +157,9 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
+    - https://picsum.photos/1920/1080.webp
+    - https://www.todaybing.com/api/today/cn
+    - https://bingw.jasonzeng.dev/?index=random 
     - https://source.fomal.cc/img/default_cover_14.webp
     # ...
 
@@ -224,10 +228,12 @@ reward:
   enable: true
   coinAudio: https://npm.elemecdn.com/akilar-candyassets@1.0.36/audio/aowu.m4a
   QR_code:
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
+    # - img: https://tuchuang.voooe.cn/images/2023/01/04/2.webp
+    - img:
       link:
       text: 微信
-    - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
+    # - img: https://tuchuang.voooe.cn/images/2023/01/04/20f8e49805975b8f8.webp
+    - img:
       link:
       text: 支付宝
 
@@ -379,7 +385,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: 
+  envId:
   region:
   visitor: false
   option:
@@ -447,7 +453,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2022
+    since: 2023
   custom_text:
   copyright: false # Copyright of theme and framework
 
@@ -456,7 +462,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 
+baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -542,13 +548,13 @@ tag_ui: # 留空或 index
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # "#e4f4f6" "#efefef"
 background:
-  #【必选】默认背景 
+  #【必选】默认背景
   default: var(--default-bg)
-  #【可选】PC端夜间模式背景 
+  #【可选】PC端夜间模式背景
   darkmode: var(--darkmode-bg)
-  #【可选】移动端日间默认背景 
+  #【可选】移动端日间默认背景
   mobileday: var(--mobileday-bg)
-  #【可选】移动端夜间模式背景 
+  #【可选】移动端夜间模式背景
   mobilenight: var(--mobilenight-bg)
 
 # Footer Background
@@ -671,7 +677,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - "Welcome to Fomalhaut🥝のTiny Home!🤣🤣🤣"
+    - "Welcome to answerのblog!🐻🐻🐻"
     - "Hope you have a nice day!🍭🍭🍭"
 
 # Loading Animation (加載動畫)
@@ -701,13 +707,14 @@ aside:
     button:
       enable: true
       icon: # fab fa-github
-      text: 前往小窝
-      link: https://github.com/fomalhaut1998
+      text: 前往github
+      link: https://github.com/answerBoom
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.fomal.cc" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cc</font></a>&nbsp;|&nbsp;<a href="https://www.fomal.cn" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cn</font></a><br>--- 备用域名 ---<br><a href="https://netlify.fomal.cc" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">netlify.fomal.cc</font></a><br><a href="https://cloudflare.fomal.cc" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.fomal.cc</font></a><br>--- 网站安卓APP ---<br>🍧<a href="https://lskypro.acozycotage.net/Fomalhaut/Fomalhaut.apk" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://answerBoom.github.io" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">https://answerBoom.github.io</font></a></b></center>
+    # content: <center><b>--- 主域名 ---<br><a href="https://answerBoom.github.io" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">https://answerBoom.github.io</font></a>&nbsp;|&nbsp;<a href="https://answerBoom.github.io" title="此线路部署于Vercel" class="anno_content"><font color="#5ea6e5">fomal.cn</font></a><br>--- 备用域名 ---<br><a href="https://netlify.fomal.cc" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">netlify.fomal.cc</font></a><br><a href="https://cloudflare.fomal.cc" title="此线路部署于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.fomal.cc</font></a><br>--- 网站安卓APP ---<br>🍧<a href="https://lskypro.acozycotage.net/Fomalhaut/Fomalhaut.apk" title="点这里可以下载网站的安卓APP" class="anno_content"><font color="#5ea6e5">点此下载</font></a>🍧</b></center>
   card_recent_post:
-    enable: false
+    enable: true
     limit: 3 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
@@ -736,7 +743,7 @@ aside:
   card_weibo:
     enable: false
   card_friend_link: #友链通讯录
-    enable: true
+    enable: flase
     sort_order: # Don't modify the setting unless you know
 
 # busuanzi count for PV / UV in site
@@ -750,7 +757,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: false
-  publish_date: 8/9/2022 00:00:00
+  publish_date: 6/8/2023 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -927,7 +934,7 @@ inject:
     - <script async src="//at.alicdn.com/t/c/font_3586335_hsivh70x0fm.js"></script> # js图标引入1
     - <script async src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script> # js图标引入2
     - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
-    - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script>  # 新年元宝
+    - <script async src="https://cdn.wpon.cn/2022-sucai/Gold-ingot.js"></script> # 新年元宝
     - <canvas id="universe"></canvas> # 星空画布
     - <canvas id="snow"></canvas> # 雪花画布
     - <script defer src="/js/fomal.js"></script> # 主模块js
@@ -1084,7 +1091,7 @@ envelope_comment:
     - 或者你有什么改进的建议？
     - 又或者你有什么具体的问题需要咨询？
     - 都可以在下方评论区留言哦~~~
-  bottom: F小站站长亲自为您服务！ #仅支持单行文本
+  bottom: 小站站长亲自为您服务！ #仅支持单行文本
   height: #1050px，信封划出的高度
   path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
   front_matter: #【可选】comments页面的 front_matter 配置

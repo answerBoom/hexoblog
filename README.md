@@ -139,11 +139,11 @@
   function createtime() {
     // 当前时间
     now.setTime(now.getTime() + 1000);
-    var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
+    var start = new Date("06/08/2023 00:00:00"); // 旅行者1号开始计算的时间
     var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
     var unit = (dis / 149600000).toFixed(6);  // 天文单位
     // 网站诞生时间
-    var grt = new Date("08/09/2022 00:00:00");
+    var grt = new Date("06/08/2023 00:00:00");
   ...
     let currentTimeHtml = "";
     (currentTimeHtml =
@@ -173,7 +173,7 @@
     var dnum = Math.floor(days);
   
     var ascll = [
-      `欢迎来到Fomalhaut🥝の小家!`,
+      `欢迎来到answer🐻の小家!`,
       `Future is now 🍭🍭🍭`,
       `
           
@@ -226,7 +226,7 @@
     setTimeout(
       console.warn.bind(
         console,
-        "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+        "%c ⚡ Powered by answer🐻 %c 你正在访问answer🐻の小家",
         "color:white; background-color:#f0ad4e",
         ""
       )

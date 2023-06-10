@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: answerBlog🥝
+title: answerBlog
 subtitle: 
 description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut'
-author: Fomalhaut🥝
+keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,answerBlog'
+author: answerBlog
 language: zh-CN
 timezone: ''
 
@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: https://answerBoom.github.io/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository:  # 这里写上你的Github地址
+    repository: git@github.com:answerBoom/answerBoom.github.io.git # 这里写上你的Github地址
     branch: main
   # - type: baidu_url_submitter
   # - type: git

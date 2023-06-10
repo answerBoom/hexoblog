@@ -8,7 +8,7 @@ type: "link"
 {% tabs link %}
 <!-- tab 🙋 butterfly-💭candy -->
 ```yml
-    - name: Fomalhaut🥝
+    - name: answer🐻
       link: https://www.fomal.cc/
       avatar: https://www.fomal.cc/assets/avatar.webp
       descr: Future is now 🍭🍭🍭
@@ -19,12 +19,12 @@ type: "link"
 <!-- tab 🥗Volantis -->
 ```JSON
 {
-  "title": "Fomalhaut🥝",
+  "title": "answer🐻",
   "screenshot": "https://source.fomal.cc/siteshot/www.fomal.cn.jpg",
   "url": "https://www.fomal.cc/",
   "avatar": "https://www.fomal.cc/assets/avatar.webp",
   "description": "Future is now 🍭🍭🍭",
-  "keywords": "Fomalhaut🥝"
+  "keywords": "answer🐻"
 }
 ```
 <!-- endtab -->
@@ -33,12 +33,12 @@ type: "link"
 
 | 名称       | 数值                                                         |
 | ---------- | ------------------------------------------------------------ |
-| 站点名称   | Fomalhaut🥝                                                   |
+| 站点名称   | answer🐻                                                   |
 | 站点截图   | https://source.fomal.cc/siteshot/www.fomal.cn.jpg |
 | 站点链接   | https://www.fomal.cc/                                        |
 | 站长头像   | https://www.fomal.cc/assets/avatar.webp                         |
 | 站点描述   | Future is now🍭🍭🍭                         |
-| 站点关键词 | Fomalhaut🥝,个人博客,代码                                     |
+| 站点关键词 | answer🐻,个人博客,代码                                     |
 
 <!-- endtab -->
 {% endtabs %}

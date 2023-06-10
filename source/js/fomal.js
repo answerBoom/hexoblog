@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | answer🐻")[0];
 }
 
 function scrollToTop() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到answer🐻の小家!`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2022 By answer",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by answer🐻 %c 你正在访问answer🐻の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| answer🐻") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('answer🐻的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2521,7 +2521,7 @@ if (m == 12 && dd == 25) {//圣诞节
 }
 if (m == 8 && dd == 11) {//站长生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
+    Swal.fire("祝站长" + (y - 2000).toString() + "岁生日快乐！");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2789,7 +2789,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("06/08/2023 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3148,9 +3148,11 @@ function changeBgColor() {
 }
 
 // 必应每日壁纸API
-let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
+//随机壁纸api：https://bingw.jasonzeng.dev/?index=random     每日壁纸api：https://www.todaybing.com/api/today/cn
+// let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
+let bingDayBg = screen.width <= 768 ? "url(https://www.todaybing.com/api/today/cn)" : "url(https://www.todaybing.com/api/today/cn)";
 // 必应历史壁纸API
-let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
+let bingHistoryBg = screen.width <= 768 ? "url(https://bingw.jasonzeng.dev/?index=random)" : "url(https://bingw.jasonzeng.dev/?index=random)";
 // EEE.DOG
 let EEEDog = "url(https://api.yimian.xyz/img?type=moe&size=1920x1080)";
 // 随机美图cdn.seovx.com
@@ -3174,10 +3176,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
+    --default-bg: url(https://bingw.jasonzeng.dev/?index=random);
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --mobileday-bg: url(https://www.todaybing.com/api/today/cn);
+    --mobilenight-bg: url(https://www.todaybing.com/api/today/cn);
   }`;
 }
 // 切换背景主函数
