@@ -5,9 +5,9 @@
 # Site
 title: answerBlog
 subtitle: 
-description: 'Future is now 🍭🍭🍭'
+description: '任何时间！任何地点！超级侦探！认真办案！！'
 keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,answerBlog'
-author: answerBlog
+author: answer
 language: zh-CN
 timezone: ''
 
@@ -46,7 +46,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -271,22 +271,22 @@ magnet:
   devide: 3
   display:
     - name: 算法
-      display_name: 小Fの算法学习笔记
+      display_name: leetcode学习笔记
       icon: 🍡
-    - name: 计算机基础
-      display_name: 小Fの计算机基础笔记
+    - name: 深度学习
+      display_name: 深度学习笔记
       icon: 🍼
-    - name: 魔改教程
-      display_name: 小Fの博客魔改教程
+    - name: onther
+      display_name: 零零散散的笔记
       icon: 🍉
-    - name: Java基础
-      display_name: 小FのJava基础笔记
+    - name: Java
+      display_name: Java笔记
       icon: 🍟
-    - name: 数据库
-      display_name: 小Fの数据库笔记
+    - name: 前端
+      display_name: 前端笔记
       icon: 🍨
-    - name: 演示
-      display_name: 小Fの案例演示笔记
+    - name: python
+      display_name: python笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色

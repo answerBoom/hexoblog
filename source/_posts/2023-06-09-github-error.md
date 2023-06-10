@@ -7,6 +7,7 @@ categories:
 mathjax: true
 description: git commit -m "first commit"错误
 abbrlink: '70556169'
+swiper_index: 3
 date: 2023-06-09 21:38:51
 ---
 ### $ git commit -m "first commit"错误

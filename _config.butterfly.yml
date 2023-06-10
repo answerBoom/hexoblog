@@ -158,7 +158,6 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://picsum.photos/1920/1080.webp
-    - https://www.todaybing.com/api/today/cn
     - https://bingw.jasonzeng.dev/?index=random 
     - https://source.fomal.cc/img/default_cover_14.webp
     # ...
@@ -743,7 +742,7 @@ aside:
   card_weibo:
     enable: false
   card_friend_link: #友链通讯录
-    enable: flase
+    enable: false
     sort_order: # Don't modify the setting unless you know
 
 # busuanzi count for PV / UV in site

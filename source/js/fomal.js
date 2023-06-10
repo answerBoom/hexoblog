@@ -3176,8 +3176,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://bingw.jasonzeng.dev/?index=random);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
+    --default-bg: url(https://www.todaybing.com/api/today/cn);
+    --darkmode-bg:url(https://www.todaybing.com/api/today/cn);
     --mobileday-bg: url(https://www.todaybing.com/api/today/cn);
     --mobilenight-bg: url(https://www.todaybing.com/api/today/cn);
   }`;
