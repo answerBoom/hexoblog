@@ -62,11 +62,11 @@ if hexo-config('preloader')
       .spinner-box
         display: none
             
-      /* 在这个位置添加下面的内容 */
-      .carplay
-        display: none
-	    /* 添加完毕 */
-      
+      // /* 在这个位置添加下面的内容 */
+      // .carplay
+      //   display: none
+	    // /* 添加完毕 */
+
   @keyframes configure-clockwise
     0%
       transform: rotate(0)
@@ -100,23 +100,23 @@ if hexo-config('preloader')
       transform: rotate(-315deg)
 
 
-// if hexo-config('preloader.enable')
-//   if hexo-config('preloader.load_style') == 'gear'
-//     @import './_load_style/gear'
-//   else if hexo-config('preloader.load_style') == 'ironheart'
-//     @import './_load_style/ironheart'
-//   else if hexo-config('preloader.load_style') == 'scarecrow'
-//     @import './_load_style/scarecrow'
-//   else if hexo-config('preloader.load_style') == 'triangles'
-//     @import './_load_style/triangles'
-//   else if hexo-config('preloader.load_style') == 'wizard'
-//     @import './_load_style/wizard'
-//   else if hexo-config('preloader.load_style') == 'image'
-//     @import './_load_style/image'
-//   else if hexo-config('preloader.load_style') == 'spincat'
-//     @import './_load_style/spincat'
-//   else if hexo-config('preloader.load_style') == 'heo'
-//     @import './_load_style/heo'
-//   else
-//     @import './_load_style/default'
+if hexo-config('preloader.enable')
+  if hexo-config('preloader.load_style') == 'gear'
+    @import './_load_style/gear'
+  else if hexo-config('preloader.load_style') == 'ironheart'
+    @import './_load_style/ironheart'
+  else if hexo-config('preloader.load_style') == 'scarecrow'
+    @import './_load_style/scarecrow'
+  else if hexo-config('preloader.load_style') == 'triangles'
+    @import './_load_style/triangles'
+  else if hexo-config('preloader.load_style') == 'wizard'
+    @import './_load_style/wizard'
+  else if hexo-config('preloader.load_style') == 'image'
+    @import './_load_style/image'
+  else if hexo-config('preloader.load_style') == 'spincat'
+    @import './_load_style/spincat'
+  else if hexo-config('preloader.load_style') == 'heo'
+    @import './_load_style/heo'
+  else
+    @import './_load_style/default'
 
