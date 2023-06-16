@@ -167,7 +167,7 @@ error_404:
   enable: true
   subtitle: "此页面不存在哦٩͡[๏̯͡๏]"
   # https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
-  background: /assets/404_1.jpg
+  background: https://bu.dusays.com/2023/03/03/6401a7906aa4a.gif
 
 post_meta:
   page: # Home Page
